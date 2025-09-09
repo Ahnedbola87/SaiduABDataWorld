@@ -36,6 +36,9 @@ It is designed for management and decision-makers to monitor KPIs, identify tren
 4. Loyal customers like Matthew Smith & David M. contribute consistently  
 5. Controlled logistics with average shipping cost at $26  
 6. Stable sales/profit distribution across all regions  
+<img <img width="893" height="490" alt="statiionary   gadget store dashboard 3" src="https://github.com/user-attachments/assets/0a52fd72-d5ed-4979-8209-9d22027d66c2" />
+width<img width="889" height="489" alt="statiionary   gadget store dashboard 2" src="https://github.com/user-attachments/assets/1c73299e-4164-45d1-82a9-a48cc5492488" />
+="887" height="496" alt="statiionary   gadget store dashboard 1" src="https://github.com/user-attachments/assets/21473d52-499b-4c4e-8a25-f67ead7229b0" />
 
 ## ✅ Recommendations
 - Boost stock & marketing for high-demand products  
