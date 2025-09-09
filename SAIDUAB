@@ -1,0 +1,28 @@
+# 👋 Welcome to My Data World!
+
+I'm diving into the world of data analytics! Sharing what I’m learning through hands-on projects with Power BI, SQL, Python, and Excel.
+
+## 📁 Portfolio Projects
+
+### 🔹 Sales Performance Dashboard – Power BI
+Analyzed regional and category-wise sales using Power BI.
+- Tools: Power BI
+- [View Project Repo](#) ← ()
+
+### 🔹 Loan Approval Prediction – Python
+Used machine learning to predict loan approvals from customer data.
+- Tools: Python, Pandas, Scikit-learn
+- [View Project Repo](#)
+
+### 🔹 Netflix Exploratory Data Analysis – Python
+Explored trends in TV shows and movies using Python.
+- Tools: Python, Matplotlib, Seaborn
+- [View Project Repo](#)
+
+---
+
+## 🔧 Tools & Technologies
+- **Power BI** for dashboarding
+- **Python (Pandas, Matplotlib, Scikit-learn)** for EDA and ML
+- **SQL** for querying and data manipulation
+- **Excel** for data prep and quick analysis
