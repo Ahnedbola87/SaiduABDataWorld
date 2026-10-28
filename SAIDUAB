@@ -1,6 +1,7 @@
 # 👋 Welcome to My Data World!
 
-I'm diving into the world of data analytics! Sharing what I’m learning through hands-on projects with Power BI, SQL, Python, and Excel.
+I'm a Monitoring & Evaluation professional with a background in Mathematics teaching and banking operations. My work involves tracking project progress, monitoring achievements against targets, and preparing reports to support decision-making.
+I'm also developing my data analytics skills through hands-on projects, using data to identify trends, measure performance, and communicate useful insights.
 
 ## 📁 Portfolio Projects
 
@@ -14,6 +15,12 @@ Used machine learning to predict loan approvals from customer data.
 - Tools: Python, Pandas, Scikit-learn
 - [View Project Repo](#)
 
+- ###BayLeiners Sales Dashboard (2017–2019) – Power BI
+ Analyzed sales, costs, profits, and profit margins to identify top-performing products, customers, cities, sales channels, and warehouses.
+- Tools: Power BI
+- Sales analysis, profitability, KPIs, and business insights
+- [View Project Repository]
+
 ### 🔹 Netflix Exploratory Data Analysis – Python
 Explored trends in TV shows and movies using Python.
 - Tools: Python, Matplotlib, Seaborn
@@ -26,4 +33,4 @@ Explored trends in TV shows and movies using Python.
 - **Python (Pandas, Matplotlib, Scikit-learn)** for EDA and ML
 - **SQL** for querying and data manipulation
 - **Excel** for data prep and quick analysis
-__
+- **KoboToolbox/KoboCollect: Data collection for monitoring and evaluation
