@@ -1,5 +1,5 @@
-📊 BayLeiners Sales Dashboard (2017–2019)
-🔎 Overview 
+# 📊 BayLeiners Sales Dashboard (2017–2019)
+##🔎 Overview 
 
 The BayLeiners Sales Dashboard provides a consolidated view of business performance between 2017–2019.
 It tracks customers, sales, costs, profits, channels, warehouses, cities, and products.
@@ -12,7 +12,7 @@ Profitability Analysis – Customers, channels, warehouses, cities, and time tre
 
 Profit Margin Analysis – Products, customers, warehouses, and channels.
 
-📌 Key Metrics
+###📌 Key Metrics
 
 Total Customers: 50 unique customers
 
@@ -28,7 +28,7 @@ Profit Margin: 37.4% (Profit ÷ Sales)
 
 These KPIs provide a quick snapshot of performance.
 
-📊 Visualizations & Purpose
+###📊 Visualizations & Purpose
 🔹 Page 1: Sales Distribution
 
 Sales by Channel (Donut): One channel dominates with 53.6% of sales → dependency risk.
@@ -57,7 +57,7 @@ Profit Margin by Warehouse & Channel (Bar): East Warehouse & Direct Channel show
 
 Top 10 Customers by Profit Margin (Table): Identifies priority clients for retention & upselling.
 
-💡 Insights & Interpretations
+###💡 Insights & Interpretations
 
 Top Products: Phones & Laptops dominate sales but margin analysis reveals efficiency gaps.
 
@@ -73,7 +73,7 @@ Profit Margins: Some customers/products deliver better efficiency despite lower 
 
 Seasonality: Profits peak in January, March, and August.
 
-🚀 Recommendations
+###🚀 Recommendations
 
 Diversify Channels: Reduce reliance on the leading channel.
 
@@ -87,7 +87,7 @@ Product Strategy: Focus on high-margin items; re-price or cut low-margin ones.
 
 Seasonal Promotions: Leverage January & March peaks.
 
-⚠️ Limitations & Next Steps
+###⚠️ Limitations & Next Steps
 
 Data limited to 2017–2019 → extend for trend updates.
 
