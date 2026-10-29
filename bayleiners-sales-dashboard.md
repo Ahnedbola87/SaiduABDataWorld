@@ -11,13 +11,12 @@ Profit Margin Analysis – Products, customers, warehouses, and channels.
 
 ###📌 Key Metrics
 
-Total Customers: 50 unique customers
-Total Orders: 7,991 processed
-Total Cost: 96.8M (assumed USD)
-Total Sales: 154.6M
-Total Profit: 57.8M (Profit = Sales – Cost)
-Profit Margin: 37.4% (Profit ÷ Sales)
-These KPIs provide a quick snapshot of performance.
+- **Total Customers: 50
+- **Total Orders: 7,991
+- **Total Cost: 96.8M 
+- **Total Sales: 154.6M
+- **Total Profit: 57.8M
+- **Profit Margin: 37.4%
 
 ###📊 Visualizations & Purpose
 
