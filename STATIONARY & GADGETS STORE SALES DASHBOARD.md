@@ -1,6 +1,6 @@
 # 📊 Stationery and Gadget Store Sales Dashboard
 
-## 📝 Overview
+## 📝 Project Overview
 This interactive Power BI dashboard provides a holistic view of sales performance, profitability, customer engagement, and employee distribution.  
 It is designed for management and decision-makers to monitor KPIs, identify trends, and uncover insights about products, customers, suppliers, and regions.
 
