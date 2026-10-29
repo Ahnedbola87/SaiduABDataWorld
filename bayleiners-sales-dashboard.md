@@ -9,14 +9,14 @@ Sales Distribution – Channels, warehouses, products, and cities.
 Profitability Analysis – Customers, channels, warehouses, cities, and time trends.
 Profit Margin Analysis – Products, customers, warehouses, and channels.
 
-###📌 Key Metrics
+##📌Key Metrics
 
-- **Total Customers: 50
-- **Total Orders: 7,991
-- **Total Cost: 96.8M 
-- **Total Sales: 154.6M
-- **Total Profit: 57.8M
-- **Profit Margin: 37.4%
+- **Total Customers:** 50
+- **Total Orders:** 7,991
+- **Total Cost:** 96.8M 
+- **Total Sales:** $154.6M
+- **Total Profit:** 57.8M
+- **Profit Margin:** 37.4%
 
 ###📊 Visualizations & Purpose
 
