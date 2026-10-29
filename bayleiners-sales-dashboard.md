@@ -21,21 +21,21 @@ These KPIs provide a quick snapshot of performance.
 
 ###📊 Visualizations & Purpose
 
-🔹 Page 1: Sales Distribution
+#🔹 Page 1: Sales Distribution
 
 Sales by Channel (Donut): One channel dominates with 53.6% of sales → dependency risk.
 Sales by Warehouse (Donut): One warehouse leads with 47.3% of sales.
 Sales by Product (Bar): Mobile Phones (25.7M) & Laptops (25.5M) lead.
 Top 10 Cities by Sales (Treemap): Christchurch, Hamilton, and Waitakere dominate.
 
-🔹 Page 2: Profitability Analysis
+#🔹 Page 2: Profitability Analysis
 
 Top 10 Customers by Orders (Treemap): Key accounts include Pure Group, Procter Corp, Trigen.
 Profit by Channel & Warehouse (Bar): East Warehouse (14.4M) & South (8.6M) are most profitable.
 Profit & Sales by Month (Line): Peaks in January (14.4M) & March (14.2M).
 Top 10 Cities by Profit (Table): Auckland (9.6M) & Christchurch (9.1M) lead.
 
-🔹 Page 3: Profit Margin Analysis
+#🔹 Page 3: Profit Margin Analysis
 
 Top 10 Products by Profit Margin (Scatter): Large bubbles in top-right = high sales + high profitability.
 Profit Margin by Warehouse & Channel (Bar): East Warehouse & Direct Channel show strong margins.
