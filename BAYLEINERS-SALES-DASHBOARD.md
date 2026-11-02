@@ -37,6 +37,11 @@ The BayLeiners Sales Dashboard analyzes business performance between 2017, 2018 
 
 ## 📷 Dashboard Screenshots
 
-- profit-margin-analysis.PNG
-- profitability-analysis.PNG
-- sales-distribution.PNG
+### Sales Distribution
+![Sales Distribution](sales-distribution.png)
+
+### Profitability Analysis
+![Profitability Analysis](profitability-analysis.png)
+
+### Profit Margin Analysis
+![Profit Margin Analysis](profit-margin-analysis.png)
