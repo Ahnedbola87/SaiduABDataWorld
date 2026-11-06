@@ -4,23 +4,24 @@
 
 ## 1. Project Overview
 
-The objective of this project was to analyze historical banking and loan-related data to identify patterns associated with loan approval decisions.
+The objective of this project was to analyze banking and loan-related data to identify patterns associated with loan approval decisions and customer activities.
 
-The analysis focused on customer demographics, loan characteristics, interest rates, transaction anomalies and customer feedback. It also involved developing a machine learning model to classify loan status.
+The analysis focused on customer demographics, loan characteristics, interest rates, transaction anomalies and customer feedback. It also involved experimenting with a machine learning model to classify loan status.
 
-The project demonstrates how data analytics and machine learning can support informed decision-making in the financial sector.
+The project demonstrates how data analytics and machine learning techniques can support data-driven decision-making in the financial sector.
 
 ## 2. Tools and Technologies
 
 - **Power BI:** Dashboard development and data visualization.
 - **Power Query:** Data cleaning and transformation.
-- **Python:** Predictive modelling.
-- **Pandas:** Data exploration and manipulation.
+- **Python:** Data exploration and predictive modelling.
+- **Pandas:** Data manipulation and analysis.
 - **Scikit-learn:** Random Forest classification and model evaluation.
+- **Jupyter Notebook:** Python development environment.
 
 ## 3. Dataset Overview
 
-The project involved historical banking and loan-related datasets covering:
+The project involved banking and loan-related data covering:
 
 - Customer and account information.
 - Transaction records.
@@ -29,31 +30,48 @@ The project involved historical banking and loan-related datasets covering:
 - Customer feedback.
 - Transaction anomalies.
 
-For the machine learning exercise, a separate loan training dataset (`ML_Loan_Training.csv`) containing 5,000 records was used.
+For the machine learning experiment, a dataset containing 5,000 records was used.
 
-The dataset included variables such as age, city, loan amount, loan type, interest rate, loan term, approval/rejection date, loan status and anomaly.
+The modelling exercise focused on the following variables:
+
+- Age
+- City
+- Loan Amount
+- Loan Type
+- Interest Rate
+- Loan Term
+- Loan Status
 
 The target variable was **Loan Status**, consisting of three categories: Approved, Closed and Rejected.
+
+Personal identifiers and contact information were excluded from the modelling dataset.
+
+Raw source data containing personal information is not included in this repository.
 
 ## 4. Methodology
 
 The project involved the following activities:
 
 **Data Preparation**
+
 - Reviewed data types, missing values and duplicate records.
 - Cleaned and transformed relevant data using Power Query.
-- Used LabelEncoder to convert categorical variables into numerical formats for machine learning.
+- Selected relevant variables for the machine learning experiment.
+- Applied One-Hot Encoding to categorical predictors.
 
 **Data Analysis**
+
 - Examined loan approval patterns across customer demographics and loan categories.
 - Analyzed interest rate trends and monthly loan activity.
 - Investigated customer feedback and transaction anomalies.
 
 **Predictive Modelling**
+
 - Used Python, Pandas and Scikit-learn.
-- Developed a Random Forest Classification model.
-- Split the machine learning dataset into 80% training data and 20% testing data.
+- Developed a Random Forest classification model.
+- Split the dataset into 80% training data and 20% testing data.
 - Generated predictions for the three loan-status categories.
+- Compared model performance against a baseline classifier.
 
 ## 5. Dashboard Insights and Key Findings
 
@@ -72,44 +90,61 @@ The dashboard examined loan approval rates, monthly loan activity, customer feed
 - **Loan Value:** Total loan value reached 43.43M in 2022, while approved loan value peaked at 14.77M in 2021.
 - **Monthly Activity:** August recorded the highest loan collection activity, with May to August showing notable activity across age groups.
 
-## 6. Model Performance and Recommendations
+## 6. Model Performance and Evaluation
 
-The Random Forest model was evaluated using accuracy, a confusion matrix and a classification report.
+A Random Forest classifier was developed to predict loan status across three categories: Approved, Closed and Rejected.
 
-**Model Evaluation Results**
+The model was evaluated using accuracy, a classification report and a confusion matrix.
 
-| Evaluation Metric | Result |
-|---|---:|
-| Accuracy | 31.8% |
-| Macro Precision | 32% |
-| Macro Recall | 32% |
-| Macro F1-score | 31% |
-| Weighted F1-score | 32% |
+**Model Performance Comparison**
+
+| Evaluation Metric | Random Forest | Baseline Model |
+|---|---:|---:|
+| Accuracy | 31.20% | 34.20% |
+
+The classification report for the Random Forest model produced the following results:
+
+| Class | Precision | Recall | F1-score |
+|---|---:|---:|---:|
+| Approved | 0.34 | 0.39 | 0.36 |
+| Closed | 0.31 | 0.33 | 0.32 |
+| Rejected | 0.26 | 0.22 | 0.24 |
+| Macro Average | 0.31 | 0.31 | 0.31 |
+| Weighted Average | 0.31 | 0.31 | 0.31 |
 
 **Confusion Matrix**
 
 | Actual / Predicted | Approved | Closed | Rejected |
 |---|---:|---:|---:|
-| Approved | 133 | 142 | 96 |
-| Closed | 119 | 104 | 88 |
-| Rejected | 132 | 105 | 81 |
+| Approved | 132 | 111 | 99 |
+| Closed | 121 | 108 | 103 |
+| Rejected | 130 | 124 | 72 |
 
-The model achieved an accuracy of 31.8%, indicating limited classification performance across the three loan-status categories. Further development would be necessary before considering its use in practical loan assessment.
+**Model Interpretation**
 
-**Recommendations**
+The Random Forest classifier achieved an accuracy of 31.20%, compared with 34.20% from the baseline model.
+
+This indicates that the Random Forest model did not outperform the baseline classifier. The selected features may not contain sufficient predictive information to reliably distinguish between the three loan-status categories.
+
+The experiment highlights the importance of comparing machine learning models against simple baseline approaches rather than relying on accuracy alone.
+
+Further investigation, feature engineering and experimentation with alternative algorithms would be necessary before considering the model suitable for practical loan assessment.
+
+## 7. Recommendations
 
 1. Improve customer experience by investigating the relatively low proportion of positive feedback.
 2. Strengthen transaction monitoring to identify unusual transaction patterns.
 3. Further investigate demographic and loan product patterns to support lending decisions.
-4. Improve predictive performance through feature engineering and experimentation with alternative classification algorithms.
+4. Explore additional features and alternative classification algorithms to improve predictive performance.
+5. Evaluate models against appropriate baseline approaches before considering practical deployment.
 
-## 7. Project Files
+## 8. Project Files
 
 The project repository contains the following supporting materials:
 
 - **Power BI Dashboard:** Interactive dashboard file (`.pbix`).
-- **Python Notebook:** Jupyter Notebook (`.ipynb`) containing the machine learning process.
-- **Dashboard Screenshots:** Images showing the two dashboard pages.
+- **Python Notebook:** Jupyter Notebook (`.ipynb`) containing the machine learning workflow.
+- **HTML Notebook:** Browser-readable version of the Python notebook.
+- **Dashboard Screenshots:** Images showing the Power BI dashboard pages.
 
 *Note: Raw datasets are excluded where sharing is restricted or where they contain confidential or personally identifiable information.*
-
