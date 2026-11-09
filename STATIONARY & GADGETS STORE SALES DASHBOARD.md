@@ -68,8 +68,4 @@ It is designed to help management monitor key performance indicators (KPIs), ide
 
 ### Customer and Profitability Analysis
 
-![Customer and Profitability Analysis](https://github.com/user-attachments/assets/0a52fd72-d5ed-4979-8209-9d22027d66c2)
-
-## 📁 Dataset
-
-[View the sales dataset](https://github.com/user-attachments/files/22235659/sales_dataset.for.data.modeling.csv)
+![Customer and Profitability Analysis](https://github.com/user-attachments/assets/0a52fd72-d5ed-4979-8209-9d22027d66c2) 
