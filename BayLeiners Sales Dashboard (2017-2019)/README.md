@@ -39,18 +39,13 @@ The BayLeiners Sales Dashboard analyzes business performance between 2017 and 20
 - Focus on products with stronger profit margins.
 - Monitor sales and profitability trends to support better business decisions.
 
-## 📷 Dashboard Screenshots
+## Dashboard Screenshots
 
-### Sales Distribution
+### 1. Sales Distribution
+![Sales Distribution](images/sales-distribution.png)
 
-![Sales Distribution](sales-distribution.png)
+### 2. Profitability Analysis
+![Profitability Analysis](images/profitability-analysis.png)
 
-### Profitability Analysis
-
-![Profitability Analysis](profitability-analysis.png)
-
-### Profit Margin Analysis
-
-![Profit Margin Analysis](profit-margin-analysis.pngG)
-
-
+### 3. Profit Margin Analysis
+![Profit Margin Analysis](images/profit-margin-analysis.png)
